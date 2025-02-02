@@ -1,0 +1,53 @@
+/* General Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  /* margin: 0;
+  padding: 0; */
+  line-height: 1.6;
+}
+
+/* Styling for #heading */
+#heading {
+  font-family: 'Georgia', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #4CAF50;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  border-bottom: 3px solid #4CAF50;
+  width: fit-content;
+  padding-bottom: 5px;
+}
+
+#head {
+  visibility: hidden;
+}
+
+/* Button Styling */
+.custom-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button Hover Effect */
+.custom-button:hover {
+  background-color: red;
+  transform: translateY(-2px); /* Slight lift */
+}
+
+/* Button Active Effect (on Click) */
+.custom-button:active {
+  background-color: blue; /* Change color when clicked */
+  transform: scale(1.1); /* Slightly enlarge on click */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on click */
+}
+
+
